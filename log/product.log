@@ -1,0 +1,9 @@
+// time stamp
+// productid - Opbevaret i session
+// Action (produkt tilføjet/fjernet fra kurv)
+// IP
+
+// eks.:
+22/09-2016 11:45:08 - 123 - Add - kdns - 192.168.1.120
+22/09-2016 11:45:08 - 321 - Add - kdsn - 192.168.1.120
+22/09-2016 11:45:08 - 123 - Update ( price 195,00 > 175,00 ) - (kdsn) - 192.168.1.120

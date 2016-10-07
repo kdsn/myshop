@@ -1,0 +1,204 @@
+/* Variabler
+-------------------------------------------------- */
+@primary: #FF0000;
+@color:#333333;
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+body {
+  margin-top: 20px;
+}
+.logo {
+	width: 100%;
+}
+.subtext {
+	margin:10px 0 0 45px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #585858;
+}
+.navbar {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default a:hover {
+	background: none;
+	font-weight: bold;
+	color: @primary !important;
+}
+.action-icons, .action-icons:active, .action-icons:hover, .action-icons:focus {	
+    display: inline-block;
+    font-size: 2em;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background: none;
+    border: none;
+    outline:none;
+    color:@color;
+}
+
+.no-gutter {
+	padding-left: 0px !important;
+	padding-right: 0px;
+}
+.no-gutter-r {
+	padding-right: 0px;
+}
+.no-gutter-l {
+	padding-left: 0px !important;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+.relative {
+	position: relative;
+}
+
+.sm-space {
+	padding: 10px 5px;
+}
+md-space-top {
+	padding-top: 30px !important;
+}
+.md-space {
+	padding: 30px 5px;
+}
+.lg-space {
+	padding: 50px 25px;
+}
+.margin-top {
+	margin-top: 35px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.primary{
+	color:@primary;
+}
+
+
+/* Admin login specific CSS
+-------------------------------------------------- */
+body.signin {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('../img/photo-1434064511983-18c6dae20ed5.jpeg');  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  color: #FFF;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* Admin login specific CSS
+-------------------------------------------------- */
+.admin-header {
+	height: 75px;
+	border-bottom: 2px solid #ddd
+}
+.admin-logo {
+	margin: 5px auto;
+}
+.admin-loc {
+    margin: 23px auto;
+    color: #9c9c9c;
+}
+.logout {
+	position: absolute;
+	top:0px;
+	right: 10%;
+}
+
+/* Shop specific CSS
+-------------------------------------------------- */
+.feautered {
+	height: 350px;
+	background: #FFF;
+	border: 1px solid #ddd;
+}
+.thumbnail {
+    height: 355px;
+}
+.feautered img{
+	height: 300px;
+	position:absolute;
+   top:50%;
+   left:50%;
+   margin-top:-25px;
+   margin-left:-150px;
+}
+#products img {
+	width: 130px;
+} 
+.shop-item-selections {
+	width: 50%;
+}
+.shop-item-selections td:first-child {
+    width: 30%;
+}
+
+.product-img {
+	height: 200px;
+	max-width: 100%;
+}

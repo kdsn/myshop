@@ -1,0 +1,10 @@
+// Orderid - Opbevaret i session
+// time stamp
+// Action (produkt tilføjet/fjernet fra kurv)
+// IP
+
+// eks.:
+22/09-2016 11:45:08 - o5ISVJuE3r3n - Add 1 x 5319 - 192.168.1.120
+22/09-2016 11:45:08 - ITR6kWHUYGQy - Add 1 x 873 - 192.168.1.134
+22/09-2016 11:45:08 - o5ISVJuE3r3n - Remove 1 x 5319 - 192.168.1.120
+22/09-2016 11:45:08 - KcSUxexkjT96 - Add 1 x 143 - 192.168.1.14

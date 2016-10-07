@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Map http://myshop.dev to /public.
+RewriteRule ^$ /public/ [L]
+
+# Map https://myshop.dev/x to /public/x unless there is a x in the web root.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1
+
+# Add trailing slash to directories within public
+# This does not expose the internal URL.
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteRule ^public/(.*[^/])$ https://myshop.dev/$1/ [R=301]

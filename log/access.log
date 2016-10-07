@@ -1,0 +1,10 @@
+// time stamp
+// Username
+// login type
+// Action (success / fail)
+// IP
+
+// eks.:
+22/09-2016 11:45:08 - kdsn (public) - FAIL - 192.168.1.120
+22/09-2016 11:45:08 - kdsn (admin) - success - 192.168.1.120
+22/09-2016 11:45:08 - smølf (public) - success - 192.168.1.14
